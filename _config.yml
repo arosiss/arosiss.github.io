@@ -12,6 +12,10 @@ first_published: 2023 # if migrating another site, the year of your first publis
 email: arosis.ly@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://arosis.co.kr" # the base hostname & protocol for your site
+
+# Google Analytics by SEO 240310
+google_analytics: G-EVBJNCDJ9H
+
 social:
   twitter: https://twitter.com/<username>
   github: https://github.com/arosiss
