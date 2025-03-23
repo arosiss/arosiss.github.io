@@ -5,6 +5,8 @@ minimal_mistakes_skin    : "neon" ##"default" # "air", "aqua", "contrast", "dark
 
 include: ["_pages"]
 
+date_format: "%Y-%m-%d"
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -31,7 +33,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
+copyright                : AROSIS # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -89,6 +91,24 @@ yandex_site_verification :
 baidu_site_verification  :
 
 
+#search                   : true # true, false (default)
+# Site Author
+#author: "WJI"
+#  links: ""
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # Site Footer
 footer:
