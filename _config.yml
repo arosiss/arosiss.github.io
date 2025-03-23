@@ -1,6 +1,7 @@
 baseurl: '/'
 permalink: pretty
 title: 'Jekyll Serif'
+remote_theme: zerostaticthemes/jekyll-serif-theme
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -37,6 +38,7 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-remote-theme
 
 exclude:
   - Gemfile
