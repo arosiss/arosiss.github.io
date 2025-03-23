@@ -1,66 +1,51 @@
-# Welcome to Jekyll!
-#
+baseurl: '/'
+permalink: pretty
+title: 'Jekyll Serif'
 
-# Site settings
-title: Arosis 
-description: |
-  Aroma and color therapy for your stress zero life  
-  with special therapist 
-  instructed by [Jiin Woo](http://www.arosis.co.kr)
-owner: Arosis (아로시스) # or company name
-first_published: 2023 # if migrating another site, the year of your first publish
-email: arosis.ly@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://arosis.co.kr" # the base hostname & protocol for your site
+logo:
+  mobile: "images/logo/logo-mobile.svg"
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "32px"
+  desktop_width: "120px"
 
-# Google Analytics by SEO 240310
-# HTTPS #
-#google_analytics: G-EVBJNCDJ9H
-# HTTP #
-google_analytics: G-G9DSRLNMYY
+home: 
+  limit_services: 6
 
-social:
-  twitter: https://twitter.com/<username>
-  github: https://github.com/arosiss
-  linkedin-square: https://linkedin.com/in/<username>
-  facebook-official: https://facebook.com/<username>
-  google-plus-square: https://plus.google.com/u/0/+<username>
-  email: arosis.ly@gmail.com
-  #flickr:
-  instagram: beyond.clara
-  #youtube-square:
-  #spotify:
-  #stack-overflow:
-  #vimeo:
-  #reddit:
-  #stubleupon:
-  #delicious:
-  #pied-piper:
-  #digg:
-  #soundcloud:
-  #deviantart:
-  #angellist:
-  #tumblr-square:
-  #stackexchange:
-  #weibo:
-  #trello:
-  #foursquare:
-  #linux:
-  #bitbucket-square:
-  #vk:
-  #slack:
-  #vine:
-  #weixin:
-  #yelp:
-  #skyatlas:
-  #leanpub:
-  #connectdevelop:
-  #ils:
-  #forumbee:
-  #tripadvisor:
-  #amazon:
+collections:
+  services:
+    output: true
+    sort_by: weight
+  team:
+    output: true
 
-# Build settings
-markdown: kramdown
-#sass:
-#  style: compressed
+defaults:
+  - scope:
+      path: ""
+      type: "services"
+    values:
+      layout: "service"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md
