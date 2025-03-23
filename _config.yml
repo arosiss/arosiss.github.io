@@ -1,3 +1,5 @@
+remote_theme: serif-jekyll-theme
+
 baseurl: '/'
 permalink: pretty
 title: 'Jekyll Serif - arosis'
