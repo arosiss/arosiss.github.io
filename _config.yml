@@ -3,6 +3,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 #remote_theme: "zerostaticthemes/jekyll-serif-theme@v1.4"
 minimal_mistakes_skin    : "neon" ##"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+include: ["_pages"]
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -21,7 +23,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "우지인 (Jiin Woo)"
 description              : "An amazing website."
 url                      : http://arosis.co.kr # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
