@@ -1,8 +1,8 @@
 
 #baseurl: "/jekyll-serif-theme/"
-baseurl: ""
+baseurl: "/"
 permalink: pretty
-title: 'Jekyll Serif - arosis'
+title: 'The Arosis new homepage'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
