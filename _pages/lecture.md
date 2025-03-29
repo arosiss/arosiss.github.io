@@ -12,8 +12,8 @@ layout: single
 
 
 
-1. 천연아로마활용전문가 [Aromatherapy Level 1](/certs/atl1/)
-2. 천연아로마활용전문가(강사급) [Aromatherapy Level 2](/certs/atl2/)
+1. 천연아로마활용전문가 1급 [Aromatherapy Level 1](/certs/atl1/)
+2. 천연아로마활용전문가 2급 (강사급) [Aromatherapy Level 2](/certs/atl2/)
 3. 반려동물 아로마 전문가 [Pet Aroma Manager](/certs/pam/)
 4. 조향블렌딩 전문가 [Perfume Blending Expert](/certs/pbe/)
 5. 컬러심리 상담사 [Color Therapist](/certs/ctp/)
