@@ -1,14 +1,14 @@
 # main links
 main:
-  - title: "소개"
+  - title: "강사진"
     url: /about/
   - title: "강좌"
     url: /lecture/
   - title: "관련링크"
     url: https://naver.com
     target: _blank
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

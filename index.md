@@ -1,14 +1,14 @@
 ---
-title: 아로시스 홈페이지에 오신것을 환영합니다 (타이틀). 
+title: 아로시스 홈페이지
 layout: home
-description: 나는 우지인 인데 이제부터 내말좀 들어봐 Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: 나는 우지인 인데 이제부터 내말좀 들어봐.
 #intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# 아로시스에 오신것을 환영합니다. Serif - A Jekyll Business Theme.
+![AROSIS](assets/img/logo_arosis.jpg)
 
 나는 우지인인데 이제부터 내가하는 말 잘 들어봐
 Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
