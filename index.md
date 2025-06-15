@@ -6,6 +6,7 @@ description: 나는 우지인 인데 이제부터 내말좀 들어봐.
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: true
+classes: wide
 ---
 
 ![AROSIS](assets/img/logo_arosis.jpg)
